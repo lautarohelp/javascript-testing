@@ -20,10 +20,9 @@ function exponentiation(a, b) {
   return a ** b;
 }
 
-
 module.exports = {
   sum,
   multiply,
   divide,
-  exponentiation
+  exponentiation,
 };

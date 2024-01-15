@@ -34,5 +34,9 @@ describe('Test for math', () => {
       const rta = exponentiation(3, 2);
       expect(rta).toBe(9);
     });
+    test('should be 0', () => {
+      const rta = exponentiation(3, 0);
+      expect(rta).toBe(1);
+    });
   });
 });
